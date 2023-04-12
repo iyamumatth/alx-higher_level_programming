@@ -1,10 +1,10 @@
 #!/usr/bin/node
-const x = process.argv[3];
+const x = process.argv[2];
 
 if (!parseInt(x)) {
   console.log('Missing size');
 } else {
-  for (let l = 0; l < x; l++) {
+  for (let i = 0; i < x; i++) {
     let y = 0;
     let myVar = '';
 
